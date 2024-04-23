@@ -38,7 +38,7 @@ export const DetailsPage = () => {
                     <div className="row d-flex justify-content-center">
                         <div className="col-sm-10 col-md-10 mb-4">
                             <h1>
-                                <strong> {movie.title} </strong>
+                                <strong style={{ Color:'teal', fontFamily: 'sans-serif'}}> {movie.title} </strong>
                             </h1>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ export const DetailsPage = () => {
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <h3 className='text-center' style={{ color: 'violet' }}>Descripcion o Sinopsis</h3>
+                            <h3 className='text-center' style={{ color: 'teal' }}>Descripcion</h3>
                             <p>{movie.overview}</p>
 
                             <div className="row d-flex justify-content-center">
@@ -65,7 +65,7 @@ export const DetailsPage = () => {
                                     {movie.genres.map(genre =>
                                         <div key={genre.id}>
                                             <div className="card col-sm-4 me-4 mb-4">
-                                                <p className="time-text"><span>{genre.name}</span></p>
+                                                <p className="time-text" style={{color:'teal'}}><span >{genre.name}</span></p>
                                             </div>
                                         </div>
                                     )}

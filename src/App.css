@@ -11,7 +11,7 @@
 }
 
 .Funciones {
-  color: #5B42F3;
+  color: teal;
   align-items: center;
 }
 
@@ -62,7 +62,7 @@ p {
 }
 
 strong {
-  color: #793fdf;
+  color: teal;
   text-transform: uppercase;
   text-align: justify;
 }

@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import { NewDate } from "../hooks/useSearch";
-
 export const MovieApp=({movie})=>{//Define el componente que recibe a  la pelicula.
     return(
         <>
